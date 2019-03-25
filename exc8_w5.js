@@ -1,7 +1,7 @@
 function hapusSimbol(str) {
 
   // var test = str.match(/[a-z, 0-9]+/gi).toString().replace(/,/g, '')
-  var test = str.match(/[a-z, 0-9]+/gi).join('')
+  var test = str.match(/[a-z0-9]+/gi).join('')
   return test
 }
 
